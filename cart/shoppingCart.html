@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping cart</title>
+    <link rel="stylesheet" href="../index/style.css">
+    <link rel="stylesheet" href="../catalog/catalog_style.css">
+    <link rel="stylesheet" href="../product/product_style.css">
+    <link rel="stylesheet" href="shoppingCart_style.css">
+    <script src="../js/menu.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__items">
+                <div class="left">
+                    <a class="left__margin" href="../index/index.html"><img src="../img/logo.png" alt="logo"></a>
+                    <a href="#"><img src="../img/search.svg" alt="search"></a>
+                </div>
+                <div class="right">
+                    <a class="right__margin burger" href="#"><img src="../img/menu.svg" alt=""></a>
+                    <div class="overlay">
+                        <div class="menu">
+                            <h3 class="menu__header">MENU</h3>
+                            <ul class="menu-list">
+                                <h3 class="menu__heading">MAN</h3>
+                                <li class="menu-item"><a href="#" class="menu-link">Accessories</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link">Bags</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link">Denim</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link">T-Shirts</a></li>
+                            </ul>
+                            <ul class="menu-list">
+                                <h3 class="menu__heading">WOMAN</h3>
+                                <li class="menu-item"><a href="#" class="menu-link">Accessories</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link">Jackets & Coats</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link">Polos</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link">T-Shirts</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link">Shirts</a></li>
+                            </ul>
+                            <ul class="menu-list">
+                                <h3 class="menu__heading">KIDS</h3>
+                                <li class="menu-item"><a href="#" class="menu-link">Accessories</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link">Jackets & Coats</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link">Polos</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link">T-Shirts</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link">Shirts</a></li>
+                                <li class="menu-item"><a href="#" class="menu-link">Bags</a></li>
+                            </ul>
+                            <button class="menu-close-btn">X</button>
+                        </div>
+                    </div>
+                    <a class="right__margin" href="../checkout/checkout.html"><img src="../img/profile.svg"
+                            alt="profile"></a>
+                    <a href="../cart/shoppingCart.html"><img src="../img/basket.svg" alt="basket"></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="newArrivals">
+        <div class="container arrivals__container">
+            <h1 class="heading1">SHOPPING CART</h1>
+        </div>
+    </div>
+    <main class="cart__page container">
+        <section class="cart__section">
+            <figure class="cart__prod">
+                <img src="../img/prod3man.png" alt="prod1">
+                <figcaption>
+                    <div class="cart__text">
+                        <h3 class="cart__text--heading">MANGO PEOPLE T-SHIRT</h3>
+                        <img src="../img/esc.svg" alt="delete">
+                    </div>
+                    <div class="cart__description">
+                        <p class="cart__text--description">Price: <span class="cart__price">$300</span></p>
+                        <p class="cart__text--description">Color: Red</p>
+                        <p class="cart__text--description">Size: Xl</p>
+                        <span class="cart__text--description">Quantity:</span><input class="cart__input" type="text"
+                            placeholder="2">
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="cart__prod">
+                <img src="../img/prod2man.png" alt="prod1">
+                <figcaption>
+                    <div class="cart__text">
+                        <h3 class="cart__text--heading">MANGO PEOPLE T-SHIRT</h3>
+                        <img src="../img/esc.svg" alt="delete">
+                    </div>
+                    <div class="cart__description">
+                        <p class="cart__text--description">Price: <span class="cart__price">$300</span></p>
+                        <p class="cart__text--description">Color: Red</p>
+                        <p class="cart__text--description">Size: Xl</p>
+                        <span class="cart__text--description">Quantity:</span><input class="cart__input" type="text"
+                            placeholder="2">
+                    </div>
+                </figcaption>
+            </figure>
+            <nav class="cart__btns">
+                <a href="#" class="browseButton cart__link">CLEAR SHOPPING CART</a>
+                <a href="#" class="browseButton cart__link">CONTINUE SHOPPING</a>
+            </nav>
+        </section>
+        <section>
+            <h2 class="cart__text--form">SHIPPING ADRESS</h2>
+            <form action="#">
+                <input class="cart__input--form" type="text" placeholder="Bangladesh"><br>
+                <input class="cart__input--form" type="text" placeholder="State"><br>
+                <input class="cart__input--form input__margin" type="text" placeholder="Postcode / Zip"><br>
+                <a href="#" class="browseButton cart__link">GET A QUOTE</a>
+            </form>
+            <section class="total">
+                <div>
+                    <p class="total__text">SUB TOTAL &ensp;$900</p>
+                    <p class="total__text--grand">GRAND TOTAL <span class="cart__price">$900</span></p>
+                </div>
+                <div class="total__checkout">
+                    <img src="../img/totalline.svg" alt="totalLine">
+                    <a href="#"><button class="checkout">PROCEED TO CHECKOUT</button></a>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="footer product__footer">
+        <div class="subscribe">
+            <img class="subImg" src="../img/sub.jpg" alt="sub">
+        </div>
+        <div class="container">
+            <section class="sub__container">
+                <div class="feedback">
+                    <img class="woman" src="../img/woman.png" alt="woman">
+                    <p class="subText">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                        condimentum“</p>
+                </div>
+                <div class="subInput">
+                    <h2 class="h2">SUBSCRIBE</h2>
+                    <p class="subText2">FOR OUR NEWSLETTER AND PROMOTION</p>
+                    <form class="form" action="#">
+                        <input class="email" type="email" placeholder="Enter Your Email">
+                        <button class="submit" type="subscribe">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+            <section class="footerInfo">
+                <div class="rights">
+                    <p class="textRights">© 2021 Brand All Rights Reserved.</p>
+                </div>
+                <nav class="contacts">
+                    <a href="#"><img src="../img/facebook.svg" alt="facebook"></a>
+                    <a href="#"><img src="../img/insta.svg" alt="instagram"></a>
+                    <a href="#"><img src="../img/pin.svg" alt="pinterest"></a>
+                    <a href="#"><img src="../img/twitter.svg" alt="twitter"></a>
+                </nav>
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>

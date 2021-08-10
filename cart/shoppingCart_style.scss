@@ -1,0 +1,142 @@
+.cart__page {
+    padding-top: 96px;
+    padding-bottom: 128px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart__section {
+    max-width: 650px;
+}
+
+.cart__prod {
+    display: flex;
+    max-width: 650px;
+    box-shadow: 20px 20px 20px 0px rgba(221, 221, 221, 1);
+    margin-bottom: 40px;
+    padding-right: 97px;
+}
+
+.cart__text {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 31px;
+    padding-top: 22px;
+    width: 220px;
+}
+
+.cart__text--heading {
+    color: #222222;
+    font-size: 24px;
+    line-height: 29px;
+    line-height: 100%;
+    text-align: left;
+    font-weight: 400;
+}
+
+.cart__description {
+    padding-left: 31px;
+    padding-top: 62px;
+}
+
+.cart__text--description {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.cart__input {
+    width: 34px;
+    text-align: center;
+}
+
+.cart__price {
+    color: #EF5B70;
+}
+
+.cart__btns {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cart__link {
+    max-height: 20px;
+    border-color: #A4A4A4;
+    color: #A4A4A4;
+    &:hover {
+        border-color: #EF5B70;
+    }
+}
+
+.cart__text--form {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.cart__input--form {
+    width: 360px;
+    height: 45px;
+    margin-bottom: 21px;
+    padding-left: 16px;
+}
+
+.input__margin {
+    margin-bottom: 35px;
+}
+
+.total {
+    margin-top: 60px;
+    padding-top: 40px;
+    width: 380px;
+    background-color: #F5F3F3;
+    text-align: right;
+}
+
+.total__text {
+    padding-right: 35px;
+    color: #4A4A4A;
+    font-family: Lato;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    padding-bottom: 12px;
+}
+
+.total__text--grand {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    padding-right: 35px;
+    padding-bottom: 21px;
+}
+
+.total__checkout {
+   text-align: center;
+}
+
+.checkout {
+    border: 1px solid #F16D7F;
+    margin-top: 32px;
+    margin-bottom: 42px;
+    height: 47px;
+    background: #F16D7F;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+    text-decoration: none;
+    padding: 14px 38px;
+    &:hover {
+        cursor: pointer;
+    }
+}
